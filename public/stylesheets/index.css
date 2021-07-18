@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 480px) {
+    .header {
+        height: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(72, 72, 155);
+        color: white;
+    }
+    
+    .btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 70%;
+        height: 32vh;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .atag {
+        width: 50%;
+        text-align: center;
+        background-color: rgb(72, 72, 155);
+        color: white;
+        border-radius: 0.2rem;
+        text-decoration: none;
+        padding: 1rem;
+        
+    }
+
+    .post {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+    }
+    .content {
+        font-size: 1.5rem;
+    }
+    .username {
+        color: green;
+        align-self: flex-end;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+  }
+
